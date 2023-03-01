@@ -33,12 +33,29 @@ Depois utiliza o [[Mathematica ⟶ Aprendendo#Plot|Plot]] para mostrar as soluç
 
 Utiliza exatamente os mesmos passos para o calculo das constantes de decaimento, substituindo apenas a solução anterior pela solução numerica.
 
+>Cálculos de diferente constantes $n=0, 1$ com a mesma solução para $p$?
+
 ## Tentativa Nelson e Alfredo
 
 Definidos os valores $$\kappa = 3.2, \quad M = 3.25, \quad z_0 = 0.058$$ Temos a modificação no dilaton para $$A(z, k) = \frac{1}{2}\ln{z} + \frac{1}{2} k^2z^2 + \frac{1}{2} \frac{k^2}{M^4\left(z + z_0 \right)^2}$$ campo auxiliar $$Aux(z, k) = \frac{1}{2}ln{z} + \frac{1}{2} k^2 z^2 + \frac{1}{2}\frac{k^2}{M^4(z + z_0)^2}$$ E o potencial é dado por  $$V(z, k) = A'^2 - A''$$ de modo que a equação diferencia seja $$-y''(z) + \left(A'^2 - A'' \right)y(z) = p^2 y(z)$$
 >Notar:$$-y''(z) + \left(\frac{1}{4}B'^2 - \frac{1}{2} B''\right)y(z) = p^2 y(z)$$
 >>Onde:$$B(z, k) = ln{z} +  k^2 z^2 + \frac{k^2}{M^4(z + z_0)^2}$$<span style="color: red", style="text-align:center" >São a mesma equação!</span>  -> $B$ é a o campo do modelo!
 
-Usasse o [[Mathematica ⟶ Aprendendo#NDSolve|NDSolve]] para resolver colocando o momento como $p=7.626770313095943$ 
+Usasse o [[Mathematica ⟶ Aprendendo#NDSolve|NDSolve]] para resolver colocando o momento como $p=7.626770313095943$. Se faz o [[Mathematica ⟶ Aprendendo#Plot|Plot]] para vermos o comportamento da solução.
 
+- Usando [[Mathematica ⟶ Aprendendo#NIntegrate|NIntegrate]] no limite $0.31$ a $1.6$ armazenando  a solução $NSWNA$ então para o $f_0$ $$f_0 = \frac{1}{2\pi(7.626770313095943)}\left.\left( \frac{e^{-B(z, 3.2)}}{\sqrt{NSWNA}}\frac{\partial}{\partial z}Sol\, e^{B(x, 3.2)} \right)\right|_{z=0.31}$$
+- Para $f_1$ mudasse o limite para $0.0001$ a $3$ e a constante $\kappa$ para $1.6$, valor de $p$ na equação é de $4.487978799921911$.
+>Por que mudou os o limite e a constante  $\kappa$?
 
+>Apesar de mudar na equação de $f_1$ a solução usada é dada para para o mesmo valor de $f_0$.
+
+>Na equação de $f_1$ $z \to 0.00000001$ ao invés de $0.0001$ que é o limite inferior da integração?
+
+- Para $f_2$ os limites de integração são $0.0001$ a $3.4$ e $\kappa =1.5$ e o momento usado é de $4.88679$.
+>Valor de $p$ bem proximo de $f_1$
+
+>Novamente limites e valor de $\kappa$ são diferente porém com a solução para o mesmo momento de $f_0$. 
+
+>Novamente $z \to 0.00000001$.
+
+Se repete o procedimento para $f_0$ e $f_1$ no entando ambos tem o mesmos limites $0.0001$ a $2.7$ e $\kappa=1.52$  e mundando apenas os limite tomados na derivada.
