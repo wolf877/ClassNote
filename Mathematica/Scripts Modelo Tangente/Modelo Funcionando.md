@@ -59,3 +59,6 @@ Usasse o [[Mathematica ⟶ Aprendendo#NDSolve|NDSolve]] para resolver colocando 
 >Novamente $z \to 0.00000001$.
 
 Se repete o procedimento para $f_0$ e $f_1$ no entando ambos tem o mesmos limites $0.0001$ a $2.7$ e $\kappa=1.52$  e mundando apenas os limite tomados na derivada.
+
+
+## Constante de decaimento e massa por Nelson 
