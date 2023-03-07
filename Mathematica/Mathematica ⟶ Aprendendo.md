@@ -86,6 +86,21 @@ Pode ser usado para integração de varias variaveis
 ### NDSolve
 - Resolve Numericamente a equação diferencial para uma função $f$ e de uma variavel independe $x$ . Sintaxe
 ~~~mathematica
-NDSolve[f, x, {x, xmin, xmax}]
+	NDSolve[f, x, {x, xmin, xmax}]
 ~~~
 Lembrando que deve ser incluida as condições de contorno.
+
+
+### Table 
+- Faz uma lista do comando `cmd` usando as especificações dada nos parametros, semelhante a um loop for da programação. Sintaxe
+~~~mathematica
+	Table[cmd, {i, imin, imax, di}]
+~~~
+No exemplo estamos definindo o passo em que o range deve ser definido.
+
+
+### ListPlot
+- Cria graficos a partir de pontos coordenados `{x, y}`, tem todas as opções do [[Mathematica ⟶ Aprendendo#Plot|Plot]] regular. Sintaxe 
+~~~mathematica
+	ListPlot[{{x1, y1}, ..., {xn, yn}}]
+~~~
