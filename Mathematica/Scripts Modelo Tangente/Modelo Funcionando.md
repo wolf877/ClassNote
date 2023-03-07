@@ -81,3 +81,8 @@ Depois se usa o [[Mathematica ⟶ Aprendendo#ListPlot|ListPlot]] para plotar os 
 >Mesmo comportamento de grafico -> Mesmo Perfil.
 
 E por fim se faz a variação do $\kappa$, este grafico por sua vez apresenta um perfil diferente. 
+
+Por fim, se faz o plot das soluções em relação a $p$ 
+> Mesmo grafico do softwall
+> Varias os valores de $\kappa$ para saber qual se encaixa melhor com o a solução do softwall?
+
