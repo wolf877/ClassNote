@@ -62,3 +62,6 @@ Se repete o procedimento para $f_0$ e $f_1$ no entando ambos tem o mesmos limite
 
 
 ## Constante de decaimento e massa por Nelson 
+
+Tem-se um fator $$B(z, \kappa, z_0, M) = \ln{z} + \kappa^2z^2 + \frac{\kappa^2}{M^4\left(z + z_0\right)^2}$$ usasse [[Mathematica ⟶ Aprendendo#ParametricNDSolveValue|ParametricNDSolveValue]] para resolver a equação de movimento $$\partial_z\left(e^{-B}\partial_z f(z)\right) + p^2e^{-B}f(z) =0$$ com as mesmas condições de contorno vistas em [[Testando Bulk Mass e Soft Wall]], com as condições de contorno em $z=40$, porém o $z_{min}=10^{-5}$ embora a função a função seja resolvida em $z=10^{-3}$  e o $z_0 = 0.08$.
+> a função deveria ser resolvida em $z_0$?
