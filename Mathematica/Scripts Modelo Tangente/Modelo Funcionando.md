@@ -86,3 +86,5 @@ Por fim, se faz o plot das soluções em relação a $p$
 > Mesmo grafico do softwall
 > Varias os valores de $\kappa$ para saber qual se encaixa melhor com o a solução do softwall?
 
+Equação utilizada para o cálculo $$fn(z, m_n, \kappa, z_0, M) = \left.\frac{1}{2\pi m_n}\frac{e^{-B(z, \kappa, z_0, M)}}{\sqrt{\int_{10^{-10}}^{20}dx e^{-B(x, \kappa, z_0, M)}\Phi(x, \kappa, z_0, M, m_n)}}\frac{\partial}{\partial y}\Phi(y, \kappa, z_0, M, m_n)\right|_{y=z}$$
+>Nova equação para o cálculo da constante de decaimento?
