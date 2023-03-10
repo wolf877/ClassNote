@@ -104,3 +104,11 @@ No exemplo estamos definindo o passo em que o range deve ser definido.
 ~~~mathematica
 	ListPlot[{{x1, y1}, ..., {xn, yn}}]
 ~~~
+
+
+### Series
+- Faz uma expansão em serie de Taylor da função $f$ em torno do ponto $x_0$  de potencia $n$. Sintaxe, 
+~~~mathematica
+	Series[f, {x, x_0, n}]
+~~~
+obviamente, $x$ denota a variavel em que a expansão está sendo feita.
