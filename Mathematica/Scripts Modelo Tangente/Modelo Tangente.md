@@ -1,0 +1,1 @@
+Dado o potencial do tipo $$V =\frac{B'^2}{4} - \frac{B''}{2}$$
