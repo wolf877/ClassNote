@@ -1,6 +1,7 @@
 
 ### Print 
 - Exibi na dela o argumento, colocar o comando **Style** para definir fonte, cor e etc.
+- [Mais informações](https://reference.wolfram.com/language/ref/Print.html)   
 
 
 ### DSolve
@@ -9,19 +10,22 @@
 	DSolve[eqd, f(x), x]
 ```
 pode ser incluido condições de contorno junto a $eqd$ por meio da substituição $eqn \to \{eqn, \; c1, \;c2 \,. . .\}$, notar que o numero de condições de contorno é no maximo igual a ordem da equação diferencial, assim como valores da variável a que se procura ($\{x, \; x_{min}, \; x_{max}\}$ ).
-
+- [Mais informações](https://reference.wolfram.com/language/ref/DSolve.html)
 
 ### HypergeometricU
 - Dá o valor da  _função hipergeometrica_   de parametros $a$  e $b$ e de variável $x$. Sintaxe 
 ~~~mathematica
 	HypergeometricU[a, b, x]
 ~~~
+- [Mais informações](https://reference.wolfram.com/language/ref/HypergeometricU.html ) 
+
 
 ### LaguerreL
 - Fornece o _polinômio de Laguerre_ de ordem $n$  com desrespeito a variável $x$ ($L_n (x)$), usando  $$\mbox{LaguerreL}[n,\; x]$$ ou o polinio associado de Laguerre ($L_n^a (x)$) usando 
 ~~~mathematica
 	LaguerreL[n, a, x]
 ~~~
+- [Mais informações](https://reference.wolfram.com/language/ref/LaguerreL.html)
 
 
 ### ParametricNDSolveValue
@@ -40,6 +44,7 @@ Que gera um conjunto de funções parametrizadas por $a$ , para se ter o valor d
 ~~~
 retorna $22.0910$
  Por fim, podemos resolver para um ponto especifico de $t$ , fazendo a substituição $y \to y[\mbox{valor de } t]$. 
+- [Mais informações](https://reference.wolfram.com/language/ref/ParametricNDSolveValue.html) 
 
 
 ### FindRoot 
@@ -56,6 +61,7 @@ Exemplo de uso
 	FindRoot[Cos[x] == x, {x, 0}]
 ~~~ 
  que procura a raiz proximo ao ponto $0$ desta equação. Pode-se se achadas raizes de funções simultâneas colocando as varias funções entre chaves ($\{\}$)  tais quais os respectivos pontos.
+[Mais informações](https://reference.wolfram.com/language/ref/FindRoot.html) 
 
 
 ### Plot
@@ -64,6 +70,7 @@ Exemplo de uso
 	Plot[f[x], {x, xmin, xmax}]
 ~~~
 Obviamente a um conjunto de parametros de estilos e plots que podem ser incluidos.
+- [Mais informações](https://reference.wolfram.com/language/ref/Plot.html) 
 
 
 ### NIntegrate 
@@ -81,6 +88,7 @@ Pode ser usado para integração de varias variaveis
 ~~~mathematica
 	NIntegrate[f, {x, xmin, xmax}, {y, ymin, ymax}, ...]
 ~~~
+- [Mais informações](https://reference.wolfram.com/language/ref/NIntegrate.html)
 
 
 ### NDSolve
@@ -89,6 +97,7 @@ Pode ser usado para integração de varias variaveis
 	NDSolve[f, x, {x, xmin, xmax}]
 ~~~
 Lembrando que deve ser incluida as condições de contorno.
+- [Mais informações](https://reference.wolfram.com/language/ref/NDSolve.html) 
 
 
 ### Table 
@@ -97,6 +106,7 @@ Lembrando que deve ser incluida as condições de contorno.
 	Table[cmd, {i, imin, imax, di}]
 ~~~
 No exemplo estamos definindo o passo em que o range deve ser definido.
+- [Mais informações]()
 
 
 ### ListPlot
@@ -104,6 +114,7 @@ No exemplo estamos definindo o passo em que o range deve ser definido.
 ~~~mathematica
 	ListPlot[{{x1, y1}, ..., {xn, yn}}]
 ~~~
+- [Mais informações]()
 
 
 ### Series
@@ -112,3 +123,5 @@ No exemplo estamos definindo o passo em que o range deve ser definido.
 	Series[f, {x, x_0, n}]
 ~~~
 obviamente, $x$ denota a variavel em que a expansão está sendo feita.
+- [Mais informações]()
+
