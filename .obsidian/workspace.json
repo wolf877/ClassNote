@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematica/Mathematica ⟶ Aprendendo.md",
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "31ef3c8b286f1785",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematica/Mathematica ⟶ Aprendendo.md",
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematica/Mathematica ⟶ Aprendendo.md",
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematica/Mathematica ⟶ Aprendendo.md"
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md"
               }
             }
           }
@@ -139,18 +138,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Criar novo canvas": false,
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "daily-notes:Abrir a nota de hoje": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "b020a3e52ab8ff05",
   "lastOpenFiles": [
-    "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
     "Mathematica/Mathematica ⟶ Aprendendo.md",
+    "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
     "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
     "Mathematica/Scripts Modelo Tangente/Testando Bulk Mass e Soft Wall.md",
     "Pasted image 20230308183731.png",
