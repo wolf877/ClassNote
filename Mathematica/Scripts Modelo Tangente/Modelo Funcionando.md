@@ -4,7 +4,7 @@ O grafico das soluções é feito com o [[Mathematica ⟶ Aprendendo#Plot|Plot]]
 > Valido somente nesse intervalo? A segunda solução diverge para z maior que $6$.
 
 As soluções são equivalentes.
->Mas os valores são diferentes ns mesmos pontos de $z$ 
+>Mas os valores são diferentes nos mesmos pontos de $z$ 
 
 -> Obtendo as constantes de decaimento:
 - Equação da constante  decaimento para o campo vetorial (Luiz Fernando, 2018):$$f_n = \lim_{z \to 0} \frac{e^{-k^2z^2}}{m_n g_5 z}\frac{\partial}{\partial z}\Phi_n$$

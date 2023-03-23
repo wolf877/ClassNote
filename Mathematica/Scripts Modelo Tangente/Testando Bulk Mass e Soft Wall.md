@@ -2,7 +2,7 @@
 ### Soft Wall
 Equação, $$y''(z) + \left( k^4 z^2 + \frac{3}{4z^2}\right)y(z) =m^2 y(x)$$ obtida na dissertação em  Mello e Silva (2009). Usando [[Mathematica ⟶ Aprendendo#DSolve|DSolve]] obtem duas soluções para essa equação a função hipergemeotrica ([[Mathematica ⟶ Aprendendo#HypergeometricU|HypergeometricU]]$\left[-\frac{m^2}{4k^2}, \; 0, \; k^2x^2 \right]$)  e os polinomios associados de Laguerre ([[Mathematica ⟶ Aprendendo#LaguerreL|LaguerreL]]$\left[\frac{m^2}{4k^2}, \; -1, \; k^2x^2 \right]$) fora pré-termos.
 
->$\frac{m^2}{4k^2}$ deve ser inteiro?
+>$\frac{m^2}{4k^2}$ deve ser inteiro? Não
 
 ### Bulk Mass 
 Equação diferencial -> [[No-Wall Holographic Model for QCD - Afonin, 2011| No-Wall Holographic Model for QCD]]  equação 12 $$\partial_z\left(\frac{y'(z)}{z} \right) - k^4 z y(x) = - m^2 \frac{y(x)}{z}$$ usando novamente [[Mathematica ⟶ Aprendendo#DSolve|DSolve]] vemos que as soluções para ambas as equações são as mesmas. 

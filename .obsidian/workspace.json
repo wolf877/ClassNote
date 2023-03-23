@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "31ef3c8b286f1785",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md"
+                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md"
               }
             }
           }
@@ -148,10 +149,10 @@
   },
   "active": "b020a3e52ab8ff05",
   "lastOpenFiles": [
-    "Mathematica/Mathematica ⟶ Aprendendo.md",
-    "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
-    "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
     "Mathematica/Scripts Modelo Tangente/Testando Bulk Mass e Soft Wall.md",
+    "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
+    "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
+    "Mathematica/Mathematica ⟶ Aprendendo.md",
     "Pasted image 20230308183731.png",
     "Readme.md",
     "Artigos/No-Wall Holographic Model for QCD - Afonin, 2011.md",
