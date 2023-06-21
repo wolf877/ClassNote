@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
+                "file": "Artigos/QQ̄ from strings in curved spacetime.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,12 +64,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "dd75e59519538696",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "31ef3c8b286f1785",
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
+                "file": "Artigos/QQ̄ from strings in curved spacetime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
+                "file": "Artigos/QQ̄ from strings in curved spacetime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md"
+                "file": "Artigos/QQ̄ from strings in curved spacetime.md"
               }
             }
           }
@@ -148,8 +157,10 @@
   },
   "active": "b020a3e52ab8ff05",
   "lastOpenFiles": [
-    "Mathematica/Scripts Modelo Tangente/Testando Bulk Mass e Soft Wall.md",
+    "Artigos/Loops de Wilson.md",
+    "Artigos/QQ̄ from strings in curved spacetime.md",
     "Mathematica/Scripts Modelo Tangente/Modelo Funcionando.md",
+    "Mathematica/Scripts Modelo Tangente/Testando Bulk Mass e Soft Wall.md",
     "Mathematica/Scripts Modelo Tangente/Modelo Tangente.md",
     "Mathematica/Mathematica ⟶ Aprendendo.md",
     "Pasted image 20230308183731.png",
